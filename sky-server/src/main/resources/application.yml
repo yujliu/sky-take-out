@@ -34,6 +34,14 @@ sky:
     # 设置jwt签名加密时使用的秘钥
     admin-secret-key: itcast
     # 设置jwt过期时间
-    admin-ttl: 7200000
+    admin-ttl: 72000000
     # 设置前端传递过来的令牌名称
     admin-token-name: token
+
+cloudflare:
+  r2:
+    accountId: 967b006d50f9265e90eca7db597f3478
+    accessKeyId: 3a44eb35e157380e502a1828d2c4ce93
+    secretAccessKey: b138455d0c0d2918fa1e278245effeff586d867bcb1d04f00f4690a553f58f60
+    bucket: sky-itcast
+    endpoint: https://967b006d50f9265e90eca7db597f3478.r2.cloudflarestorage.com
